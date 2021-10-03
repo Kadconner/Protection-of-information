@@ -61,9 +61,6 @@ public class lab1_4 {
                 massBinaryX[i1] = BigInteger.valueOf(1);
             }
         }
-        for (BigInteger m:massBinaryX) {
-            System.out.println(m);
-        }
 
         BigInteger[] ArrayOfSolutions = new BigInteger[t];
         ArrayOfSolutions[0] = a.mod(p);
