@@ -251,20 +251,5 @@ public class lab1_4 {
     }
 
 
-    public static void main(String[] args)
-    {
-        BigInteger range = (((BigInteger.TEN.pow(9)).subtract(BigInteger.TWO)).add(BigInteger.ONE));
-
-        BigInteger a = nextRandomBigInteger(range).add(BigInteger.TWO);
-        BigInteger x = nextRandomBigInteger(range).add(BigInteger.TWO);
-        BigInteger p = nextRandomBigInteger(range).add(BigInteger.TWO);
-        BigInteger b = nextRandomBigInteger(range).add(BigInteger.TWO);
-        BigInteger y = nextRandomBigInteger(range).add(BigInteger.TWO);
-        Fast_Modulo_Exponentiation(a, x, p);
-        //gcd(a, b);
-        //Diffie_Hellman();
-        //BabyStep_GiantStep(a, p, y);
-
-    }
 
 }
